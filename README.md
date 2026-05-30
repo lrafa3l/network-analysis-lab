@@ -1,4 +1,4 @@
-# 🔬 Network Analysis Lab
+# Network Analysis Lab
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-42%20passing-brightgreen)
@@ -12,7 +12,7 @@ Built from scratch in pure Python — no Scapy, no libpcap bindings, no external
 
 ---
 
-## ✨ Features
+## Features
 
 | Category | Capability |
 |---|---|
@@ -27,7 +27,7 @@ Built from scratch in pure Python — no Scapy, no libpcap bindings, no external
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```
 network-analysis-lab/
@@ -49,7 +49,7 @@ network-analysis-lab/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone and enter the project
@@ -83,7 +83,7 @@ python analyze.py samples/attack_traffic.pcap --json > report.json
 
 ---
 
-## 🖥 CLI Output
+## CLI Output
 
 ```
 ┌──────────────────────────────────────────┐
@@ -124,7 +124,7 @@ Reading: samples/attack_traffic.pcap
 
 ---
 
-## 🌐 Web Dashboard
+## Web Dashboard
 
 Launch with `python analyze.py capture.pcap --dashboard` or run the standalone server:
 
@@ -144,7 +144,7 @@ python dashboard/app.py --data report.json --port 5000
 
 ---
 
-## 🔍 Anomaly Detection Rules
+## Anomaly Detection Rules
 
 | ID | Rule | Severity | Trigger |
 |---|---|---|---|
@@ -163,7 +163,7 @@ Thresholds are tunable — pass custom values when instantiating `AnomalyDetecto
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 # Standard library only (no pytest required)
@@ -183,7 +183,7 @@ pytest tests/ -v
 
 ---
 
-## 📖 Protocol Support
+## Protocol Support
 
 **Parsed layers:**
 
@@ -200,7 +200,7 @@ pytest tests/ -v
 
 ---
 
-## 🔌 Analysing Real Captures
+## Analysing Real Captures
 
 The tool reads any standard `.pcap` file — including those captured with **Wireshark**, **tcpdump**, or **tshark**:
 
@@ -223,7 +223,7 @@ python analyze.py capture.pcap --alerts-only
 
 ---
 
-## 📐 Code Quality
+## Code Quality
 
 - **Zero core dependencies** — packet parsing uses Python `struct`, `socket`, and `dataclasses` only
 - **Type-annotated** throughout (`from __future__ import annotations`)
@@ -233,7 +233,7 @@ python analyze.py capture.pcap --alerts-only
 
 ---
 
-## 🛠 Skills Demonstrated
+## Skills Demonstrated
 
 - **Network fundamentals** — deep understanding of the TCP/IP stack across all OSI layers
 - **Binary protocol parsing** — manual struct unpacking, bit manipulation, endianness handling
@@ -244,7 +244,7 @@ python analyze.py capture.pcap --alerts-only
 
 ---
 
-## 📄 License
+## License
 
 MIT — see [LICENSE](LICENSE).
 
