@@ -10,6 +10,8 @@ A hands-on **network forensics laboratory** built for packet capture analysis, m
 
 Built from scratch in pure Python — no Scapy, no libpcap bindings, no external parsing libraries. Every byte of every header parsed by hand against the relevant RFCs.
 
+![NetLab dashboard preview](docs/screenshots/net-lab.png)
+
 ---
 
 ## Features
